@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+}
+
+/*NAV*/
+
+nav {
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#main-nav a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.4s;
+}
+
+#main-nav a:hover {
+    color: #0ED8D6;
+
+}
+
+.scrolled {
+    background-color: rgba(14, 216, 214, 0.6);
+}
+
+/*HEADER*/
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    height: 100vh;
+}
+
+.btn-light {
+    background-color: #0ED8D6;
+    color: #FFF;
+    padding: 10px 35px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.main-header h1,
+.main-header h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-header h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+/*SECTION*/
+
+#services .inner-services .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #0ED8D6;
+    border-radius: 50px;
+    border: 1px solid #0ED8D6;
+    color: #FFF;
+    font-size: 30px;
+    transition: all 0.4s;
+}
+
+#services .inner-services .fa:hover {
+    transform: rotate(360deg);
+    background-color: #FFF;
+    color: #0ED8D6;
+}
+
+
+/*PORTFOLIO*/
+
+#portfolio {
+    background-color: #F7F7F7;
+}
+
+#port-foto-1 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#port-foto-2 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#port-foto-3 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#port-foto-4 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#port-foto-5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#port-foto-6 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+.inner-portfolio {
+    background-color: #FFF;
+    padding-bottom: 10px;
+}
+
+#portfolio .inner-portfolio .port-foto {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.overflow {
+    height: 300px;
+    overflow: hidden;
+}
+
+.mask {
+    background-color: rgba(14, 216, 214, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.fa-plus {
+    color: #FFF;
+}
+
+.port-foto:hover {
+    transform: scale(1.5);
+}
+
+.mask:hover {
+    opacity: 1;
+}
+
+/*TEAM*/
+
+.team-section {
+    text-align: center;
+}
+
+/*
+.face img{
+    height: 300px;
+    width: 300px;
+}
+*/
+
+.icons .fa {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #FFF;
+    line-height: 40px;
+    transition: all 0.4s;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+
+.icons .fa:hover {
+    background-color: #0ED8D6;
+}
+
+/*CONTACT*/
+
+.contact-section {
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/footer/world-map.jpg);
+    background-size: cover;
+    background-repeat: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    color: #FFF;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#textarea {
+    height: 150px;
+    margin: 0;
+}
+
+.message {
+    margin: 0;
+}
+
+.send {
+    margin: 20px;
+}
+
+/*FOOTER*/
+
+footer {
+    line-height: 100px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #333;
+    transition: all 0.4s;
+}
+
+footer nav ul li a:hover {
+    color: #0ED8D6;
+    text-decoration: none;
+}
